@@ -14,7 +14,7 @@ katz_deli = []
 #I'm enumerating the katz_deli array to get the name of the customer and index to calculate the customer's position on line.
        katz_deli.each_with_index do |name, index|
 #I'm using shorthand operator += to signify my variable "length" is equal to variable "length" variable "index+1 + name"
-#Additionally, I'm interpolating my variable "length" below to make my code clean, and legible.
+#Additionally, I'm interpolating my variable "deli_line" below to make my code clean, and legible.
       deli_line += " #{index+1}. #{name}"
     end
     puts "#{deli_line}"
